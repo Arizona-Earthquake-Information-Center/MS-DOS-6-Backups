@@ -1,0 +1,29 @@
+7
+CCAZ
+WUAZ
+GCAZ
+X16A
+FLAG
+WMZ
+SMAZ
+35.654 -112.297
+35.517 -111.374 
+36.058 -112.184
+34.418 -111.441
+35.167 -111.643
+35.158 -112.320
+36.321 -113.169
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+
+
+line 1:      number of stations
+line 2..8:   station names
+line 9..15:  station lat/lon
+line 16..22: station corrections P/S in seconds
+

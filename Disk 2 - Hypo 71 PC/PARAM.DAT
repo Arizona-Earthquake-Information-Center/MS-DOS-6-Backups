@@ -1,0 +1,30 @@
+1.732 .009 .2 10
+200
+1
+
+line 1: ro,  lat/lon filter,  depth factor,   beta square
+line 2: maximum bound for depth
+line 3: 0=enter data from keyboard ( P ans S arrival times )
+        1=enter data from file autodata.dat ( bach process )
+
+Note:
+     1) ro is the ratio between Vp and Vs.  ( 1.732 is the default )      
+
+     2) Lat/lon filter. Normally the program converges when the change 
+in latitude and longitude between two consecutives iterations is less or 
+equal to Lat/lon filter. The default value is .009 degress. 
+     
+     3) depth factor same as 2) but for the depth.  The default value is 
+.2 Km. 
+     
+     4) Beta square. See text for a complete explanation about the 
+factor beta.
+     
+     5) Maximum bound for depth. To compute the depth of an event, the 
+program has to know which are the physical limits where the source can 
+be located. The minimum bound is zero Km ( The surface ) and the maximum 
+bound has a default value of 200 Km. If you suspect that the depth of 
+the event is deeper than 200 Km, just change this number.
+     
+
+

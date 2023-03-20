@@ -1,0 +1,47 @@
+This document describes the datafiles  used  by  the  program  chypo.exe 
+which is the compiled version of the original program BASIC-HYPO. 
+
+Files used by chypo.exe: 
+
+1)  param.dat:  This  file  contains  some  parameters which are used to 
+initialize the program chypo.exe. Type the file for a description of the 
+parameters. 
+
+2) station.dat:  This file contains the number of seismological stations 
+defined  as  well  as  their  Latitudes,  Longitudes,  P  corrections in 
+seconds,  and S corrections in seconds.  Type the file to see the format 
+used. 
+
+3)  crustal.dat:  This  file  contains  the  number of velocities of the 
+crustal model as well as the values  for  velocities  in  Km/s  and  the 
+thickness of each layer in Km. 
+
+4)  autodata.dat:  This file is optional.  It contains the data of the P 
+and S arrival times as well as their weights.  If used,  data  will  not 
+need to be entered from the keyboard. 
+
+To  modify  the  above  files,  it  is  necessary  to  use  an Editor or 
+Wordprocessor.  Each of these files contains information of  the  format 
+used and the meaning of the different parameters. 
+
+Note:  The  program  chypo.bas  is  the  basic  version  of  the program 
+chypo.exe. 
+
+The  compiled  version  chypo.exe  requires  an  8087  math  coprocessor 
+installed in the computer. 
+
+The  compiled  version  contains some machine language subroutines which 
+have been implemented to take advantage of the special  capabilities  of 
+the  8087 mathcoprocessor.  Although enough care has been taken to write 
+and debug those routines  we  can  not  be  totally  sure  that  for  an 
+especific case the program will not crash.  If this is the case,  please 
+contact us so we can solve the problem. 
+           
+                                       Jorge Mendoza
+                                       Dale Morgan
+                                       Amos Nur
+           
+                                       Department of Geophysics
+                                       Stanford University
+                                       Stanford, Ca 94305
+

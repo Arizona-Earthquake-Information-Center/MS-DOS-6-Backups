@@ -1,0 +1,14 @@
+Numonics 2210
+2
+9600,O,7,1,RS,CS,DS,CD
+ 8 
+ 2 
+3,2,9,1
+6,6,1
+
+:PT\.
+
+
+Board should be reset before first use.\.To do this- hold down red reset button at back of board and press button #1\.on cursor. Release red button and the board should respond with 3 beeps.
+'Switch settings for this configuration are 00010110 (0=off,1=on)
+

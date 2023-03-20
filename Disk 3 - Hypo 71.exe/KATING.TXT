@@ -1,0 +1,155 @@
+    Format of The Earthquake Catalogue of Kandilli Observatory
+                 and Earthquake Research Institute
+    
+    Column  1   2 digits integer form Day
+    Column  4   2 Digits integer form Month
+    Column  7   4 Digits integer form Year
+    Column 12   2 Digits integer form Hour (origin Time)
+    Column 14   2 Digits integer form Minute
+    Column 16   3 Digits integer form Second (with tenth of second)
+    Column 19   1 Digit               indicates error in date and origin time                                          such as D:Day, H:Hour, M:Minute with                                             following two digits. If this column                                             blank, there is no error estimation.
+    Column 20   4 Digits integer form Error in second             
+    Column 25   4 Digits integer form Latitude (with portion of degree)
+    Column 30   4 Digits integer form Error in Latitude in degree
+    Column 35   4 Digits integer form Longitude (same as above)
+    Column 40   4 Digits integer form Error in Longitude in degree
+    Column 45   1 Digit               Reference for previous information
+    Column 47   3 Digits integer form Depth
+    Column 51   1 Digit               Reference for Depth
+    Column 53   3 Digits              Number of recording stations
+    Column 57   2 Digits integer form Ms Surface wave Magnitude
+    Column 59   1 Digit               Reference for Ms magnitude
+    Column 60   2 Digits integer form Mb body waves magnitude
+    Column 62   1 Digit               Reference for Mb magnitude
+    Column 66   2 Digits integer form ML Local Magnitude
+    Column 68   1 Digit               Reference for ML magnitude
+    Column 70   2 Digits              Maximum intensity Io (MSK) scale
+    Column 73   1 Digit               Reference for Io
+    Column 75   3 Digits              Radius of percebtibility
+                                      (V intensity) in km
+    Column 79   1 Digit               Reference for R5                         
+
+    References:
+            1 ATB 
+            2 ISS
+            3 BCIS
+            4 ISC 
+            5 ATH
+            6 USCG
+            7 MOS 
+            8 UNS
+            9 VKR 
+            A BAS
+            B CU 
+            C MB
+            D EGU
+            E NNA
+            F IGS 
+            G GR
+            H HFS
+            I SHI
+            J EJA 
+            K KS
+            L LAO
+            M CP
+            N NEIS
+            O NO
+            P JPR
+            Q SSKA        
+            R ISK 
+            S CSEM        
+            T TIR           
+            U UPP          
+            V EB                  
+            W SAV
+            X PL          
+            Y AS           
+            Z AASU          
+            * UAK          
+            . ??????
+
+           References: 
+
+          "ATB"
+               Alsan, E.,L. Tezucan and M. Bath 
+               An Earthquake Catalogue for Turkey for the interval 1913-1970. 
+               Kandilli Obs., Istanbul and Seism. Inst. Uppsala, 
+               Rep. No: 7-75, 166 pp., 1975.
+
+          "BAA"
+               Monthly Bulletins of the British Association for the 
+               Advancement of Science, 1913-1917.
+
+          "BCIS"
+               Determination  Preliminaire, Bureau  Central  International 
+               de  Seismologie, 1930-1975.
+  
+          "EGU"
+               Ergin, K., U. Guclu, Z. Uz. 
+               Turkiye ve civarinin   deprem  katalogu 
+               (Milattan sonra 11 yilindan 1964 sonuna kadar).
+               T.C. Istanbul Teknik Universitesi Maden Fak. 
+               Arz Fizigi Enst.,  No. 24, 1967.
+        
+          "HFS"
+              Hagfors Observatory, Stockholm, Sweden.
+        
+           "ISC"
+               Bulletins of International Seismological Centre, 1964-1987.
+       
+          "ISS"
+               Bulletins of International Seismological Summary, 1918-1963.
+         
+          "KS"
+               New catalogue  of  strong earthquakes on U.S.S.R territory 
+               from  ancient times until 1975. 
+               U.S.S.R. Academy of Sciences, 1977.
+         
+          "LAO"
+              LASA CENTRE. Lincoln Labaratory, M.I.T., Lexington, 
+              Massachusetts.
+        
+          "MOS"
+              Bulletins  of Academy of Sciences of the  U.S.S.R.,
+              Institute  of  Physics of the Earth, Moscow.
+        
+          "NEIS"
+               Preliminary determination of epicenters, 
+               U.S. National Earthquake Information Service, 1971-1980.
+         
+          "NO"
+               Ocal, N.
+               Turkiye'nin sismisitesi ve zelzele cografyasi 
+               (1950-1960 yillari icin Turkiye zelzele katalogu).
+               Milli Egitim Bakanligi Istanbul Kandilli Rasathanesi 
+               Sismoloji  Yayinlari, No. 8, 1968.
+         
+          "PL"
+               Pinar, N., E. Lahn.
+               Turkiye depremleri izahli katalogu .
+               Bayindirlik Bakanligi  Yapi ve Imar Isleri Reisligi, 
+               seri 6, sayi 36, 1952.
+         
+          "SSKA"
+               Soysal, H., S. Sipahioglu., D. Kolcak., Y. Altinok.
+               Turkiye ve cevresinin tarihsel deprem katalogu.
+               TUBITAK, Proje No. TBAG 341, 1981.
+         
+          "UAK"
+              Ucer, S. B., E. Ayhan, D. Kalafat
+              An earthquake catalogue for Turkey and surrounding area.
+              In preparation.
+         
+          "UNS"
+               Catalogue of earthquakes, UNDP/UNESCO 
+               Survey of the seismicity ofthe Balkan Region,
+               UNESCO Project Office, Skopje, 1974.
+         
+          "USCG"
+               Preliminary determination of epicenters, 
+               U.S. Coast and Geodetic Survey, 1965-1970.
+         
+          "VKR"
+               Karnik, V.
+               Seismicity of the European Area, Part 1-2.
+               Academia Praha, 1968-1971.

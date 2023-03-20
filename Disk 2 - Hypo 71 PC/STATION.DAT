@@ -1,0 +1,28 @@
+7
+GCN
+CCAZ
+WMZ
+MTLO
+FLAG
+BRDG
+PFN
+36.044 112.128
+35.654 112.216
+35.156 112.326
+36.353 113.199
+36.167 111.633
+34.626 111.176
+34.815 109.866
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+0 0
+
+line 1:      number of stations
+line 2..8:   station names
+line 9..15:  station lat/lon
+line 16..22: station corrections P/S in seconds
+

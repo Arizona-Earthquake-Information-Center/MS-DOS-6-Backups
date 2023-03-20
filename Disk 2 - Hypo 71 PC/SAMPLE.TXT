@@ -1,0 +1,11 @@
+This is a a sample file for StereoNett. It contains fault slip data. 
+The text entered in curly brackets is formatting information.
+When you enter data, you need not type formatting information. StereoNett
+will add formatting information automatically.
+208.8   78.1    P               {Circle 16      -1      0       0       -1      RGB[0,0,0]      RGB[0,0,0]}
+121.6   3.8     L       //Normal        {Triangle       14      -1      0       0       0       RGB[0,0,0]      RGB[0,0,0]}
+143.2   85.3    P       //Small Circle 30       {Circle 16      -1      0       0       -1      RGB[0,0,0]      RGB[0,0,0]}
+58.6    20.6    L       //Reverse       {Triangle       14      -1      0       0       -1      RGB[255,0,0]    RGB[0,0,0]}
+215.8   85.7    P               {Circle 16      -1      0       0       -1      RGB[0,0,0]      RGB[0,0,0]}
+127.4   7.4     L       //Normal        {Triangle       14      -1      0       0       -1      RGB[0,0,255]    RGB[0,0,0]}
+54.0    13.0    P       quartz veins    {Star   28      -1      0       0       0       RGB[255,0,255]  RGB[0,0,0]}
